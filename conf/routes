@@ -1,0 +1,6 @@
+GET     /conditions/exact                   controllers.ConditionsController.exact(term: String)
+GET     /conditions/fuzzy                   controllers.ConditionsController.fuzzy(term: String)
+GET     /conditions/phrase                  controllers.ConditionsController.phrase(term: String)
+GET     /conditions/wildcard                controllers.ConditionsController.wildcard(term: String)
+GET     /conditions/fulltext                controllers.ConditionsController.fulltext(term: String)
+
